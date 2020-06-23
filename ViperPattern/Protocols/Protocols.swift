@@ -30,4 +30,5 @@ protocol View2Present {
 }
 protocol Present2RouterDelegate {
     func createModule() -> UIViewController
+    func throwError()
 }

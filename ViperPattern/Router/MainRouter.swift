@@ -10,6 +10,9 @@ import Foundation
 import UIKit
 
 class MainRouter: Present2RouterDelegate {
+    func throwError() {
+        print("err")
+    }
     func createModule() -> UIViewController {
         let viewController = MainViewController()
         
