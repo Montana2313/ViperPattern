@@ -9,6 +9,8 @@
 import Foundation
 import UIKit
 
+
+// Protocols
 protocol Present2ViewDelegate {
     // Presentten gelen verileri view'a taşıcak
     func showPhotoDetails(_ data : PhotoDetail)
